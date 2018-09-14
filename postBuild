@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+
+echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.profile
+export PATH=$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH
+brew install hello
