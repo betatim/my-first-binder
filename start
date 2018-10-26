@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export PATH="/home/jovyan/.linuxbrew/bin":$PATH
+#export PATH="/home/jovyan/.linuxbrew/bin":$PATH
 
 exec "$@"
