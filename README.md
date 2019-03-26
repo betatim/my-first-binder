@@ -1,3 +1,3 @@
 # my-first-binder
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/my-first-binder/master)
+A demo repository for learnign how to get your repository ready to launch on mybinder.org
